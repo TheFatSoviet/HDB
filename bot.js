@@ -17,8 +17,8 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === 'test') {
-    	message.reply('NTM!');
+    if (message.content === '!Hporn') {
+    	message.reply('https://www.cowcotland.com/images/news/2016/05/mod-apex-pc-sobre-mais-diablement-realise.jpg');
   	}
 });
 client.on('message', message => {
