@@ -16,6 +16,16 @@ client.on('message', message => {
     	message.reply('BONG!');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'test') {
+    	message.reply('NTM!');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 't2') {
+    	message.reply('t3 mdr');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
