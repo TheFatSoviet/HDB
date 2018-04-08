@@ -35,7 +35,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!Hporn') {
-     var nombre_de_phrases = 4; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
+     var nombre_de_phrases = 29; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
      switch (getRandomInt(nombre_de_phrases)) {
        // Toutes les phrases en fonction des cas (PS : on compte à partir de 0)
       case 0:
@@ -50,6 +50,91 @@ client.on('message', message => {
       case 3:
        message.reply('https://www.materiel.net/live/403467.jpg');
        break;
+      case 4:
+       message.reply('http://www.overclockingmadeinfrance.com/wp-content/uploads/2016/01/Kryptek-PC-Project-Pyrrus-2.jpg');
+       break;
+      case 5:
+       message.reply('https://i.pinimg.com/originals/da/e2/52/dae25254a28a6afc1d7d0bdc7d437a5a.jpg');
+       break;
+      case 6:
+       message.reply('https://pbs.twimg.com/media/CuaVgZ_WIAALTk7.jpg');
+       break;
+      case 7:
+       message.reply('https://www.geeky-gadgets.com/wp-content/uploads/2011/05/Computer-Desk.jpg');
+       break;
+      case 8:
+       message.reply('http://www.modding.fr/wp-content/uploads/2011/11/photo-02.jpg');
+       break;
+      case 9:
+       message.reply('https://i.pinimg.com/originals/a7/f6/b6/a7f6b6d175ff788200bf658f8e10fbb3.jpg');
+       break;
+      case 10:
+       message.reply('https://www.overclockingmadeinfrance.com/wp-content/uploads/2016/01/Kryptek-PC-Project-Pyrrus-4.jpg');
+       break;
+      case 11:
+       message.reply('https://www.hardwarecooking.fr/wp-content/uploads/2017/09/Cosmos-C700P-2-computex-2017.jpg');
+       break; 
+      case 12:
+       message.reply('https://media.ldlc.com/bo/images/fiches/bo%C3%AEtier_pc/nzxt/s340_elite/noir/texte2.jpg');
+       break;   
+      case 13:
+       message.reply('http://www.ozeros.com/wp-content/uploads/2013/09/MOD-1.jpg');
+       break; 
+      case 14:
+       message.reply('https://pic.clubic.com/v1/images/1582030/raw?width=1000&height=0&fit=max&hash=09843190de4d28a59f300a7c77efd30e44645bb5');
+       break; 
+      case 15:
+       message.reply('http://www.guru3d.com/index.php?ct=articles&action=file&id=17753');
+       break; 
+      case 16:
+       message.reply('https://www.cowcotland.com/images/news/2017/06/mod.jpg');
+       break; 
+      case 17:
+       message.reply('https://i.dailymail.co.uk/i/pix/2013/02/12/article-2277340-17865F32000005DC-534_634x418.jpg');
+       break; 
+      case 18:
+       message.reply('https://i.pinimg.com/474x/e3/2b/8a/e32b8ae49df86792f1674ea92310fd6d.jpg');
+       break;   
+      case 19:
+       message.reply('https://www.magicpc.fr/76242-large_default/s340.jpg');
+       break;   
+      case 20:
+       message.reply('https://www.hd-tecnologia.com/imagenes/articulos/2016/06/Los-mejores-MODs-de-Computex-2016-7.jpg');
+       break; 
+      case 21:
+       message.reply('https://www.hd-tecnologia.com/imagenes/articulos/2016/06/Los-mejores-MODs-de-Computex-2016-3.jpg');
+       break; 
+      case 22:
+       message.reply('http://www.redusers.com/noticias/wp-content/uploads/2015/07/win2013.jpg');
+       break; 
+      case 23:
+       message.reply('https://img.generation-nt.com/thermaltake-chaser-mk-i-lcs-edition_0901F901B000964151.jpg');
+       break; 
+      case 24:
+       message.reply('https://www.hd-tecnologia.com/imagenes/articulos/2016/06/Los-mejores-MODs-de-Computex-2016-2.jpg');
+       break; 
+      case 25:
+       message.reply('https://www.hd-tecnologia.com/imagenes/articulos/2016/06/Los-mejores-MODs-de-Computex-2016-8.jpg');
+       break;  
+      case 26:
+       message.reply('https://http2.mlstatic.com/programacion-bios-pc-laptop-mod-tarjetas-de-video-router-y--D_NQ_NP_764170-MLV26478747252_122017-F.jpg');
+       break;   
+      case 27:
+       message.reply('https://www.hardwarecooking.fr/wp-content/uploads/2017/09/Cosmos-C700P-computex-2017.jpg');
+       break; 
+      case 28:
+       message.reply('https://www.hardwarecooking.fr/wp-content/uploads/2017/11/test-msi-gtx-1080-ti-gaming-x-trio-hardwarecooking-19.jpg');
+       break; 
+      case 29:
+       message.reply('https://images-na.ssl-images-amazon.com/images/I/51agJDR1mRL.jpg');
+       break; 
+      case 30:
+       message.reply('');
+       break; 
+      case 31:
+       message.reply('');
+       break; 
+          
       // Au cas  où rien (on sait jamais)
       default:
        message.reply('lol');
