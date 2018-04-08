@@ -10,6 +10,13 @@ client.on('message', message => {
     	message.reply('pong');
   	}
 });
+});
+
+client . on ( ' message ' , message  => {
+    if ( message . content  ===  ' bing ' ) {
+    	un message . répondre ( ' BONG! ' );
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
