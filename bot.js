@@ -18,7 +18,12 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === '!Hporn') {
-    	message.reply('https://www.cowcotland.com/images/news/2016/05/mod-apex-pc-sobre-mais-diablement-realise.jpg');
+    function getRandomSite(){
+   var sites = ["google.com","bing.com","xyz.com","abc.com","example.com"];
+    var i = parseInt(Math.random()*(sites.length-1));
+    return sites[i];
+};
+    	
   	}
 });
 client.on('message', message => {
