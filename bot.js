@@ -55,7 +55,7 @@ client.on('message', message => {
        message.reply('lol');
        break;
      }
-    	message.reply('t3 mdr');
+    
   	}
 });
 
