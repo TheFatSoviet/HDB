@@ -35,7 +35,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!Hporn') {
-     var nombre_de_phrases = 29; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
+     var nombre_de_phrases = 51; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
      switch (getRandomInt(nombre_de_phrases)) {
        // Toutes les phrases en fonction des cas (PS : on compte à partir de 0)
       case 0:
@@ -176,31 +176,28 @@ client.on('message', message => {
       case 45:
        message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-6.jpg');
        break; 
-        case 46
-       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-5.jpg');
-       break; 
-       case 46
+        case 46:
        message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-2.jpg');
        break; 
-      case 48:
+      case 47:
        message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-11.jpg');
        break; 
-        case 47
+        case 48:
        message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-6.jpg');
        break; 
-       case 49
+       case 49:
        message.reply('https://www.watermod.com/wp-content/uploads/2017/07/18813648_1004622863007650_4271719754737933324_n.jpg');
        break; 
-      case 50
+      case 50:
        message.reply('https://www.watermod.com/wp-content/uploads/2017/07/381726.jpg');
        break; 
-        case 51
+        case 51:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-5.jpg'');
+       break; 
+       case 52:
        message.reply('');
        break; 
-       case 52
-       message.reply('');
-       break; 
-      case 53
+      case 53:
        message.reply('');
        break; 
           
