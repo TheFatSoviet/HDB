@@ -129,9 +129,78 @@ client.on('message', message => {
        message.reply('https://images-na.ssl-images-amazon.com/images/I/51agJDR1mRL.jpg');
        break; 
       case 30:
-       message.reply('');
+       message.reply('http://casingmods.fr/wp-content/uploads/2018/03/22496016_1087078904762045_8125084368697313006_o.jpg');
        break; 
       case 31:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/03/modding-hour-29-phanteks-alienware-purple-1.jpg');
+       break; 
+       case 32:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/03/mod-luna01.jpg');
+       break; 
+      case 33:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/MB-Crystal-14.jpg');
+       break; 
+       case 34:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-6.jpg');
+       break; 
+      case 35:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-9.jpg');
+       break; 
+       case 36:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/03/Project-Silver-Mist-27.jpg');
+       break; 
+      case 37:
+       message.reply('http://www.modding.fr/wp-content/uploads/2016/05/102.jpg');
+       break; 
+       case 38:
+       message.reply('http://www.modding.fr/wp-content/uploads/2016/05/141.jpg');
+       break; 
+      case 39:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/03/Project-Silver-Mist-27.jpg');
+       break; 
+       case 40:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/03/Project-Silver-Mist-2.jpg');
+       break; 
+      case 41:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/03/Project-Silver-Mist-28.jpg');
+       break; 
+       case 42:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/03/Project-Silver-Mist-34.jpg');
+       break; 
+      case 43:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/03/Project-Silver-Mist-12.jpg');
+       break; 
+       case 44:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/03/Project-Silver-Mist-8.jpg');
+       break; 
+      case 45:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-6.jpg');
+       break; 
+        case 46
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-5.jpg');
+       break; 
+       case 46
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-2.jpg');
+       break; 
+      case 48:
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-11.jpg');
+       break; 
+        case 47
+       message.reply('http://www.modding.fr/wp-content/uploads/2018/02/Project-Flow-6.jpg');
+       break; 
+       case 49
+       message.reply('https://www.watermod.com/wp-content/uploads/2017/07/18813648_1004622863007650_4271719754737933324_n.jpg');
+       break; 
+      case 50
+       message.reply('https://www.watermod.com/wp-content/uploads/2017/07/381726.jpg');
+       break; 
+        case 51
+       message.reply('');
+       break; 
+       case 52
+       message.reply('');
+       break; 
+      case 53
        message.reply('');
        break; 
           
