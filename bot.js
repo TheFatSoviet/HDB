@@ -206,9 +206,32 @@ client.on('message', message => {
        message.reply('lol');
        break;
      }
+	 
     
   	}
 });
+client.on('message', message => {
+    if (message.content === '!URSS') {
+     var nombre_de_phrases = 51; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
+     switch (getRandomInt(nombre_de_phrases)) {
+       // Toutes les phrases en fonction des cas (PS : on compte à partir de 0)
+      case 0:
+       message.reply('http://s1.1zoom.me/big0/603/269084-alexfas01.jpg');
+       break;
+      case 1:
+	  message.reply('https://cdn.allwallpaper.in/wallpapers/1200x750/5120/ussr-artwork-1200x750-wallpaper.jpg');
+       break;
+	  
+	        
+      // Au cas  où rien (on sait jamais)
+      default:
+       message.reply('lol');
+       break;
+     }
+	 
+    
+  	}
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
