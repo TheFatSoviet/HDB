@@ -212,7 +212,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === '!URSS') {
-     var nombre_de_phrases = 2; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
+     var nombre_de_phrases = 15; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
      switch (getRandomInt(nombre_de_phrases)) {
        // Toutes les phrases en fonction des cas (PS : on compte à partir de 0)
       case 0:
@@ -221,6 +221,46 @@ client.on('message', message => {
       case 1:
 	  message.reply('https://cdn.allwallpaper.in/wallpapers/1200x750/5120/ussr-artwork-1200x750-wallpaper.jpg');
        break;
+	   case 2:
+       message.reply('http://st.gde-fon.com/wallpapers_original/146933_sssr_kommunizm_soyuz_1680x1050_www.Gde-Fon.com.jpg');
+       break;
+      case 3:
+       message.reply('http://st.gde-fon.com/wallpapers_original/246003_ussr_-sssr_-soldaty_-avtomat_-krasnyj_-serp__1900x1200_www.Gde-Fon.com.jpg');
+       break;
+      case 4:
+       message.reply('https://png.pngtree.com/element_origin_min_pic/16/10/05/1557f4b191982e9.jpg');
+       break;
+      case 5:
+       message.reply('https://marxismoleninismo.files.wordpress.com/2014/01/za-cccp-narod-ru_soyz_ssr.jpg');
+       break;
+      case 6:
+       message.reply('http://i.playground.ru/i/25/83/61/00/blog/content/wkvnalrr.jpg');
+       break;
+      case 7:
+       message.reply('https://archive-media-0.nyafuu.org/wg/image/1444/73/1444737146574.jpg');
+       break;
+      case 8:
+       message.reply('https://images.alphacoders.com/245/245473.jpg');
+       break;
+      case 9:
+       message.reply('https://cdn.allwallpaper.in/wallpapers/1920x1080/4080/lada-2101-russia-russians-ussr-cars-1920x1080-wallpaper.jpg');
+       break;
+      case 10:
+       message.reply('http://tapety.joe.pl/tapeta/zrobione-przez-czlowieka/komunizm/ikony-historii.jpg');
+       break;
+      case 11:
+       message.reply('https://bouteillealamer.files.wordpress.com/2010/12/cccp.png');
+       break; 
+      case 12:
+       message.reply('https://i.ytimg.com/vi/THU-uhoFY2g/maxresdefault.jpg');
+       break;   
+      case 13:
+       message.reply('http://www.reuun.com/data/out/118/403503624-soviet-wallpapers.jpg');
+       break; 
+      case 14:
+       message.reply('http://cdn.skstream.biz/images/sKuOrJoa7.th.jpg');
+       break; 
+	 
 	  
 	        
       // Au cas  où rien (on sait jamais)
