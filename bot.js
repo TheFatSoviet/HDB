@@ -212,7 +212,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === '!URSS') {
-     var nombre_de_phrases = 15; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
+     var nombre_de_phrases = 32; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
      switch (getRandomInt(nombre_de_phrases)) {
        // Toutes les phrases en fonction des cas (PS : on compte à partir de 0)
       case 0:
@@ -255,10 +255,34 @@ client.on('message', message => {
        message.reply('https://i.ytimg.com/vi/THU-uhoFY2g/maxresdefault.jpg');
        break;   
       case 13:
-       message.reply('http://www.reuun.com/data/out/118/403503624-soviet-wallpapers.jpg');
+       message.reply('https://images4.alphacoders.com/906/thumb-1920-90658.jpg');
        break; 
       case 14:
        message.reply('http://cdn.skstream.biz/images/sKuOrJoa7.th.jpg');
+       break; 
+	    case 25:
+       message.reply('https://i.pinimg.com/originals/70/21/77/7021774f691f391d27d716e1cab2c29b.jpg');
+       break;  
+      case 26:
+       message.reply('http://daler.ru/pictures/1/1920x1200/Simvolika-KGB-SSSR-11305.jpg');
+       break;   
+      case 27:
+       message.reply('https://www.walldevil.com/wallpapers/w01/chernobyl-s.t.a.l.k.e.r.-ukraine-apocalypse-gas-masks-wallpaper.jpg');
+       break; 
+      case 28:
+       message.reply('https://wallpapertag.com/wallpaper/full/5/5/6/676047-download-free-ak47-wallpaper-1920x1080-for-iphone-7.jpg');
+       break; 
+      case 29:
+       message.reply('https://i.pinimg.com/originals/85/5a/d1/855ad134c7033a4416c7833cc973da8e.jpg');
+       break; 
+      case 30:
+       message.reply('https://cdna.artstation.com/p/assets/images/images/001/286/180/large/andre-cantarel-mi-24-mdl-v337-view01.jpg?1443931914');
+       break; 
+      case 31:
+       message.reply('http://wallsfield.com/wp-content/uploads/2016/06/t-90-700x329.jpg');
+       break; 
+       case 32:
+       message.reply('http://infos-75.com/infos75/wp-content/uploads/2013/05/t34_1943_tank.jpg');
        break; 
 	 
 	  
