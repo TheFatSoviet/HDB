@@ -212,7 +212,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === '!URSS') {
-     var nombre_de_phrases = 51; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
+     var nombre_de_phrases = 2; // le nombre de phrases que tu vas mettre (PS : on compte à partir de 1)
      switch (getRandomInt(nombre_de_phrases)) {
        // Toutes les phrases en fonction des cas (PS : on compte à partir de 0)
       case 0:
