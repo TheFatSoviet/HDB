@@ -16,6 +16,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === 'DD') {
+    	message.channel.send(',daily');
+  	}
+});
+
+client.on('message', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
   	}
