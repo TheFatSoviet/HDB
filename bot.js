@@ -9,7 +9,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 client.on('message', message => {
-    if (message.content === '!Help') {
+    if (message.content === '!aide') {
     	message.channel.send('ping');
 	    message.channel.send('!NTM');
 	    message.channel.send('bing');
