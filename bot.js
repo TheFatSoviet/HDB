@@ -16,8 +16,9 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'DD') {
-    	message.channel.send(',daily');
+    if (message.content === 'NTM') {
+    	message.channel.send('NIKTAMEEEEEEEEEEEEEEEEEEEEEEEEEEEEER');
+	    message.channel.send('https://78.media.tumblr.com/4b9d57b13b2b23f847ee3c26abfc0eb4/tumblr_inline_o96g1lSneD1s9x8us_500.gif');
   	}
 });
 
