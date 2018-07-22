@@ -10,13 +10,13 @@ client.on('ready', () => {
 });
 client.on('message', message => {
     if (message.content === '!aide') {
-    	message.channel.send('ping');
-	    message.channel.send('!NTM');
-	    message.channel.send('bing');
-	    message.channel.send('test');
-	    message.channel.send('t2');
-	    message.channel.send('!Hporn');
-	    message.channel.send('!URSS');
+    	message.channel.send('// ping');
+	    message.channel.send('// !NTM');
+	    message.channel.send('// bing');
+	    message.channel.send('// test');
+	    message.channel.send('// t2');
+	    message.channel.send('// !Hporn');
+	    message.channel.send('// !URSS');
   	}
 });
 
