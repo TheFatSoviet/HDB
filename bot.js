@@ -8,6 +8,17 @@ function getRandomInt(max) {
 client.on('ready', () => {
     console.log('I am ready!');
 });
+client.on('message', message => {
+    if (message.content === '!Help') {
+    	message.channel.send('ping');
+	    message.channel.send('!NTM');
+	    message.channel.send('bing');
+	    message.channel.send('test');
+	    message.channel.send('t2');
+	    message.channel.send('!Hporn');
+	    message.channel.send('!URSS');
+  	}
+});
 
 client.on('message', message => {
     if (message.content === 'ping') {
@@ -16,7 +27,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'NTM') {
+    if (message.content === '!NTM') {
     	message.channel.send('NIKTAMEEEEEEEEEEEEEEEEEEEEEEEEEEEEER');
 	    message.channel.send('https://78.media.tumblr.com/4b9d57b13b2b23f847ee3c26abfc0eb4/tumblr_inline_o96g1lSneD1s9x8us_500.gif');
   	}
